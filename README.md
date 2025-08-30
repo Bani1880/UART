@@ -2,11 +2,10 @@
 VLSI Implementation of a UART Module
 This project implements a Universal Asynchronous Receiver/Transmitter (UART) module in VLSI, designed to facilitate reliable serial data communication between digital devices. The implementation uses the Verilog Hardware Description Language (HDL) and is synthesised and simulated using Vivado. The project focuses on creating a robust, asynchronous, full-duplex communication interface suitable for a wide range of embedded systems and applications.
 
-Working Principle
-
+Working Principle:
 UART is a serial communication protocol that sends data one bit at a time over a single line. The transmitter (TX) and receiver (RX) lines are crossed, connecting the transmitter of one device to the receiver of the other, and vice versa.The communication is asynchronous and relies on a specific data packet 
 
-structure:
+Structure:
 
 Start Bit: A low signal (logic 0) that indicates the beginning of a data transfer.
 
